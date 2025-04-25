@@ -20,7 +20,7 @@ pipeline {
 
 	stage('Run Tests') {
 	    steps {
-		sh 'npx vitest'
+		sh 'npm run test'
 	    }
 	}
 
